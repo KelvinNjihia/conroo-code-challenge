@@ -101,9 +101,9 @@ http://localhost:5173
 ### Project Screenshots
 
 - On initial load, the application will display the current week's schedule as available on `/timeSlots` endpoint.
-  ![Initial Load](./public/FireShot%20Capture%20006%20-%20Conroo%20Code%20Challenge%20-%20localhost.png)
+  ![Initial Load](./public/conroo_initial_slots.png)
 - The schedule is displayed in a grid layout with 5 days and 10 hours per day.
 
 - The schedule is dynamically updated when an event is received from the `/sse` endpoint.
 
-  ![Project Screenshot](./public/FireShot%20Capture%20004%20-%20Conroo%20Code%20Challenge%20-%20localhost.png)
+  ![Project Screenshot](./public/conroo_updated_slots.png)
