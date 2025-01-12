@@ -1,0 +1,43 @@
+/* TODO: Add more global styles */
+
+:root {
+  --conroo-background-color: #f5f7fa; /* Light gray background */
+  --conroo-secondary-background: #ffffff; /* White for cards/containers */
+  --conroo-text-color: #2c3e50; /* Dark blue-gray for text */
+  --conroo-text-color-black: #000000; /* Black for text */
+
+  /* Primary colors */
+  --conroo-primary-color: #3498db; /* Modern blue */
+  --conroo-secondary-color: #34495e; /* Dark blue-gray */
+  --conroo-accent-color: #e74c3c; /* Soft red */
+
+  /* Status colors */
+  --status-green: green; /* Success green */
+  --status-yellow: yellow; /* Warning yellow */
+  --status-red: red; /* Error red */
+
+  /* Progress bar backgrounds */
+  --progress-bg-green: #ebfaf0; /* Light green background */
+  --progress-bg-yellow: #fef9e7; /* Light yellow background */
+  --progress-bg-red: #fdedec; /* Light red background */
+}
+
+html {
+  background-color: var(--conroo-background-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: var(--conroo-text-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: var(--conroo-background-color);
+}
